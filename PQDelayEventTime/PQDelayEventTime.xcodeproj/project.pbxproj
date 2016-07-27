@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6071EE021D43053700760FF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6071EE011D43053700760FF6 /* main.m */; };
+		6071EE051D43053700760FF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6071EE041D43053700760FF6 /* AppDelegate.m */; };
+		6071EE081D43053700760FF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6071EE071D43053700760FF6 /* ViewController.m */; };
+		6071EE0B1D43053700760FF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6071EE091D43053700760FF6 /* Main.storyboard */; };
+		6071EE0D1D43053700760FF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6071EE0C1D43053700760FF6 /* Assets.xcassets */; };
+		6071EE101D43053700760FF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6071EE0E1D43053700760FF6 /* LaunchScreen.storyboard */; };
+		6071EE1B1D43053700760FF6 /* PQDelayEventTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6071EE1A1D43053700760FF6 /* PQDelayEventTimeTests.m */; };
+		6071EE261D43053700760FF6 /* PQDelayEventTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6071EE251D43053700760FF6 /* PQDelayEventTimeUITests.m */; };
+		6071EE391D4305C400760FF6 /* UIControl+PQ_EventExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6071EE381D4305C400760FF6 /* UIControl+PQ_EventExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6071EE171D43053700760FF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6071EDF51D43053700760FF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6071EDFC1D43053700760FF6;
+			remoteInfo = PQDelayEventTime;
+		};
+		6071EE221D43053700760FF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6071EDF51D43053700760FF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6071EDFC1D43053700760FF6;
+			remoteInfo = PQDelayEventTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6071EDFD1D43053700760FF6 /* PQDelayEventTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PQDelayEventTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6071EE011D43053700760FF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6071EE031D43053700760FF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6071EE041D43053700760FF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6071EE061D43053700760FF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6071EE071D43053700760FF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6071EE0A1D43053700760FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6071EE0C1D43053700760FF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6071EE0F1D43053700760FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6071EE111D43053700760FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6071EE161D43053700760FF6 /* PQDelayEventTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PQDelayEventTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6071EE1A1D43053700760FF6 /* PQDelayEventTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PQDelayEventTimeTests.m; sourceTree = "<group>"; };
+		6071EE1C1D43053700760FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6071EE211D43053700760FF6 /* PQDelayEventTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PQDelayEventTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6071EE251D43053700760FF6 /* PQDelayEventTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PQDelayEventTimeUITests.m; sourceTree = "<group>"; };
+		6071EE271D43053700760FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6071EE371D4305C400760FF6 /* UIControl+PQ_EventExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIControl+PQ_EventExtension.h"; path = "delayEventTime/UIControl+PQ_EventExtension.h"; sourceTree = "<group>"; };
+		6071EE381D4305C400760FF6 /* UIControl+PQ_EventExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIControl+PQ_EventExtension.m"; path = "delayEventTime/UIControl+PQ_EventExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6071EDFA1D43053700760FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6071EE131D43053700760FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6071EE1E1D43053700760FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6071EDF41D43053700760FF6 = {
+			isa = PBXGroup;
+			children = (
+				6071EE331D43054500760FF6 /* delayEventTIme */,
+				6071EDFF1D43053700760FF6 /* PQDelayEventTime */,
+				6071EE191D43053700760FF6 /* PQDelayEventTimeTests */,
+				6071EE241D43053700760FF6 /* PQDelayEventTimeUITests */,
+				6071EDFE1D43053700760FF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6071EDFE1D43053700760FF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6071EDFD1D43053700760FF6 /* PQDelayEventTime.app */,
+				6071EE161D43053700760FF6 /* PQDelayEventTimeTests.xctest */,
+				6071EE211D43053700760FF6 /* PQDelayEventTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6071EDFF1D43053700760FF6 /* PQDelayEventTime */ = {
+			isa = PBXGroup;
+			children = (
+				6071EE031D43053700760FF6 /* AppDelegate.h */,
+				6071EE041D43053700760FF6 /* AppDelegate.m */,
+				6071EE061D43053700760FF6 /* ViewController.h */,
+				6071EE071D43053700760FF6 /* ViewController.m */,
+				6071EE091D43053700760FF6 /* Main.storyboard */,
+				6071EE0C1D43053700760FF6 /* Assets.xcassets */,
+				6071EE0E1D43053700760FF6 /* LaunchScreen.storyboard */,
+				6071EE111D43053700760FF6 /* Info.plist */,
+				6071EE001D43053700760FF6 /* Supporting Files */,
+			);
+			path = PQDelayEventTime;
+			sourceTree = "<group>";
+		};
+		6071EE001D43053700760FF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6071EE011D43053700760FF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6071EE191D43053700760FF6 /* PQDelayEventTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6071EE1A1D43053700760FF6 /* PQDelayEventTimeTests.m */,
+				6071EE1C1D43053700760FF6 /* Info.plist */,
+			);
+			path = PQDelayEventTimeTests;
+			sourceTree = "<group>";
+		};
+		6071EE241D43053700760FF6 /* PQDelayEventTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6071EE251D43053700760FF6 /* PQDelayEventTimeUITests.m */,
+				6071EE271D43053700760FF6 /* Info.plist */,
+			);
+			path = PQDelayEventTimeUITests;
+			sourceTree = "<group>";
+		};
+		6071EE331D43054500760FF6 /* delayEventTIme */ = {
+			isa = PBXGroup;
+			children = (
+				6071EE371D4305C400760FF6 /* UIControl+PQ_EventExtension.h */,
+				6071EE381D4305C400760FF6 /* UIControl+PQ_EventExtension.m */,
+			);
+			name = delayEventTIme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6071EDFC1D43053700760FF6 /* PQDelayEventTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6071EE2A1D43053700760FF6 /* Build configuration list for PBXNativeTarget "PQDelayEventTime" */;
+			buildPhases = (
+				6071EDF91D43053700760FF6 /* Sources */,
+				6071EDFA1D43053700760FF6 /* Frameworks */,
+				6071EDFB1D43053700760FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PQDelayEventTime;
+			productName = PQDelayEventTime;
+			productReference = 6071EDFD1D43053700760FF6 /* PQDelayEventTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6071EE151D43053700760FF6 /* PQDelayEventTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6071EE2D1D43053700760FF6 /* Build configuration list for PBXNativeTarget "PQDelayEventTimeTests" */;
+			buildPhases = (
+				6071EE121D43053700760FF6 /* Sources */,
+				6071EE131D43053700760FF6 /* Frameworks */,
+				6071EE141D43053700760FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6071EE181D43053700760FF6 /* PBXTargetDependency */,
+			);
+			name = PQDelayEventTimeTests;
+			productName = PQDelayEventTimeTests;
+			productReference = 6071EE161D43053700760FF6 /* PQDelayEventTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6071EE201D43053700760FF6 /* PQDelayEventTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6071EE301D43053700760FF6 /* Build configuration list for PBXNativeTarget "PQDelayEventTimeUITests" */;
+			buildPhases = (
+				6071EE1D1D43053700760FF6 /* Sources */,
+				6071EE1E1D43053700760FF6 /* Frameworks */,
+				6071EE1F1D43053700760FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6071EE231D43053700760FF6 /* PBXTargetDependency */,
+			);
+			name = PQDelayEventTimeUITests;
+			productName = PQDelayEventTimeUITests;
+			productReference = 6071EE211D43053700760FF6 /* PQDelayEventTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6071EDF51D43053700760FF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = PQ;
+				TargetAttributes = {
+					6071EDFC1D43053700760FF6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					6071EE151D43053700760FF6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6071EDFC1D43053700760FF6;
+					};
+					6071EE201D43053700760FF6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6071EDFC1D43053700760FF6;
+					};
+				};
+			};
+			buildConfigurationList = 6071EDF81D43053700760FF6 /* Build configuration list for PBXProject "PQDelayEventTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6071EDF41D43053700760FF6;
+			productRefGroup = 6071EDFE1D43053700760FF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6071EDFC1D43053700760FF6 /* PQDelayEventTime */,
+				6071EE151D43053700760FF6 /* PQDelayEventTimeTests */,
+				6071EE201D43053700760FF6 /* PQDelayEventTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6071EDFB1D43053700760FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6071EE101D43053700760FF6 /* LaunchScreen.storyboard in Resources */,
+				6071EE0D1D43053700760FF6 /* Assets.xcassets in Resources */,
+				6071EE0B1D43053700760FF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6071EE141D43053700760FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6071EE1F1D43053700760FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6071EDF91D43053700760FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6071EE081D43053700760FF6 /* ViewController.m in Sources */,
+				6071EE391D4305C400760FF6 /* UIControl+PQ_EventExtension.m in Sources */,
+				6071EE051D43053700760FF6 /* AppDelegate.m in Sources */,
+				6071EE021D43053700760FF6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6071EE121D43053700760FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6071EE1B1D43053700760FF6 /* PQDelayEventTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6071EE1D1D43053700760FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6071EE261D43053700760FF6 /* PQDelayEventTimeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6071EE181D43053700760FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6071EDFC1D43053700760FF6 /* PQDelayEventTime */;
+			targetProxy = 6071EE171D43053700760FF6 /* PBXContainerItemProxy */;
+		};
+		6071EE231D43053700760FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6071EDFC1D43053700760FF6 /* PQDelayEventTime */;
+			targetProxy = 6071EE221D43053700760FF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6071EE091D43053700760FF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6071EE0A1D43053700760FF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6071EE0E1D43053700760FF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6071EE0F1D43053700760FF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6071EE281D43053700760FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6071EE291D43053700760FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6071EE2B1D43053700760FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PQDelayEventTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pgq.PQDelayEventTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6071EE2C1D43053700760FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PQDelayEventTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pgq.PQDelayEventTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6071EE2E1D43053700760FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PQDelayEventTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pgq.PQDelayEventTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PQDelayEventTime.app/PQDelayEventTime";
+			};
+			name = Debug;
+		};
+		6071EE2F1D43053700760FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PQDelayEventTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pgq.PQDelayEventTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PQDelayEventTime.app/PQDelayEventTime";
+			};
+			name = Release;
+		};
+		6071EE311D43053700760FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PQDelayEventTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pgq.PQDelayEventTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PQDelayEventTime;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6071EE321D43053700760FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PQDelayEventTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pgq.PQDelayEventTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PQDelayEventTime;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6071EDF81D43053700760FF6 /* Build configuration list for PBXProject "PQDelayEventTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6071EE281D43053700760FF6 /* Debug */,
+				6071EE291D43053700760FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6071EE2A1D43053700760FF6 /* Build configuration list for PBXNativeTarget "PQDelayEventTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6071EE2B1D43053700760FF6 /* Debug */,
+				6071EE2C1D43053700760FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6071EE2D1D43053700760FF6 /* Build configuration list for PBXNativeTarget "PQDelayEventTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6071EE2E1D43053700760FF6 /* Debug */,
+				6071EE2F1D43053700760FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6071EE301D43053700760FF6 /* Build configuration list for PBXNativeTarget "PQDelayEventTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6071EE311D43053700760FF6 /* Debug */,
+				6071EE321D43053700760FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6071EDF51D43053700760FF6 /* Project object */;
+}
